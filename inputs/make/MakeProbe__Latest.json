@@ -1,7 +1,7 @@
 {
   "base_url": "https://us2.make.com/api/v2",
   "count": 43,
-  "fetched_at": "2026-02-23T16:09:25Z",
+  "fetched_at": "2026-02-23T16:32:15Z",
   "organization_id": null,
   "scenario_source": "api:scenario_listing",
   "scenarios": [
