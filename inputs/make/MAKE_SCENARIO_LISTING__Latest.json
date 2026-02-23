@@ -1,9 +1,14 @@
 {
-  "fetched_at": "2026-02-23T05:02:26Z",
+  "fetched_at": "2026-02-23T15:42:00Z",
   "ok": false,
-  "organization_id": null,
-  "raw": null,
+  "organization_id": "4498137",
+  "raw": {
+    "body": "{\"detail\":\"\\\"teamId\\\" and \\\"organizationId\\\" cannot be used together.\",\"message\":\"Bad Request\",\"code\":\"SC400\",\"suberrors\":[]}",
+    "error": "HTTPError",
+    "status": 400,
+    "url": "https://us2.make.com/api/v2/scenarios?organizationId=4498137&teamId=1102819"
+  },
   "scenarios": [],
-  "status": 0,
-  "team_id": null
+  "status": 400,
+  "team_id": "1102819"
 }
