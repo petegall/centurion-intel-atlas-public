@@ -1,0 +1,55 @@
+{
+  "base_url": "https://us2.make.com/api/v2",
+  "count": 9,
+  "fetched_at": "2026-02-23T05:02:28Z",
+  "organization_id": null,
+  "scenario_source": "repo:inputs/make/MAKE_SCENARIOS.json",
+  "scenarios": [
+    {
+      "name": "10. Engagements to GHL",
+      "scenario_id": "3952284",
+      "status": 200
+    },
+    {
+      "name": "EMAIL CONVEYOR - GO",
+      "scenario_id": "4093385",
+      "status": 200
+    },
+    {
+      "name": "Partner Content CSVs to Content",
+      "scenario_id": "4002272",
+      "status": 200
+    },
+    {
+      "name": "Intel Conveyor",
+      "scenario_id": "4091455",
+      "status": 200
+    },
+    {
+      "name": "Partner History (prospects) CSV to History",
+      "scenario_id": "4001823",
+      "status": 200
+    },
+    {
+      "name": "Partner LinkedIn CSVs to Connections",
+      "scenario_id": "3996198",
+      "status": 200
+    },
+    {
+      "name": "Partner Members CSVs to Members",
+      "scenario_id": "4002164",
+      "status": 200
+    },
+    {
+      "name": "8a. C12 Intel Report - Deep Pass",
+      "scenario_id": "3798600",
+      "status": 200
+    },
+    {
+      "name": "Atlas \u2013 Register Scenario",
+      "scenario_id": "4206316",
+      "status": 200
+    }
+  ],
+  "team_id": null
+}

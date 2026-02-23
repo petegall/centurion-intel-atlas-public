@@ -1,0 +1,240 @@
+{
+  "base_id": "appQFyu6Aejoq7yHP",
+  "fetched_at": "2026-02-23T05:02:26Z",
+  "ok": true,
+  "tables": [
+    {
+      "fields": [
+        {
+          "id": "fld2vP3XtZobYBWYe",
+          "name": "Name",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldezphIIbqgQm0rE",
+          "name": "System",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldXA9GjvvmybUNLw",
+          "name": "Source_ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldTJuMVpYlS5EkuP",
+          "name": "Platform_Scenario_ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldvaWXHXxlJQovIp",
+          "name": "Snapshot_Type",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldcVJgj7eGnHxUNK",
+          "name": "Captured_At",
+          "options": {
+            "dateFormat": {
+              "format": "l",
+              "name": "local"
+            },
+            "timeFormat": {
+              "format": "h:mma",
+              "name": "12hour"
+            },
+            "timeZone": "client"
+          },
+          "type": "dateTime"
+        },
+        {
+          "id": "fldIo1T7pRTR53Xff",
+          "name": "Drive_File_URL",
+          "type": "url"
+        },
+        {
+          "id": "fldD38TfqLKv56HbO",
+          "name": "Drive_File_ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld8q6LZqBap3e1T8",
+          "name": "SHA256",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldVYQjKjB2xwGvaR",
+          "name": "Is_Latest",
+          "options": {
+            "color": "greenBright",
+            "icon": "check"
+          },
+          "type": "checkbox"
+        },
+        {
+          "id": "fldnSSM3DzhqbUpvc",
+          "name": "Notes",
+          "type": "multilineText"
+        },
+        {
+          "description": "An AI generated summary of the Attachments field. Upload files to Attachments to generate a summary.",
+          "id": "fldSREPl8xOdrpld5",
+          "name": "Attachment Summary",
+          "options": {
+            "prompt": [
+              "You are a professional document analyst specializing in summarizing content from various file types. Your task is to extract key points and provide a concise summary of the content found in the attached files. Ensure that the summary captures the main ideas and any important details without including unnecessary information.\n\nAnalyze the content of the attached files to identify the main themes and significant details. Summarize these points clearly and concisely, ensuring that the summary is informative and relevant to the document's purpose.\n\nFormat your response as plain text, keeping it concise and to the point. If you cannot summarize the content, output \"Unable to summarize the content.\" Example: \"The document discusses the impact of climate change on polar bears, highlighting the loss of habitat and food sources.\" (Real examples should be longer and more detailed.)\n\nFiles:\n",
+              {
+                "field": {
+                  "fieldId": "fldcVJgj7eGnHxUNK"
+                }
+              }
+            ],
+            "referencedFieldIds": [
+              "fldcVJgj7eGnHxUNK"
+            ]
+          },
+          "type": "aiText"
+        }
+      ],
+      "id": "tblTKzashWhZJp7uI",
+      "name": "System Snapshots Index",
+      "primaryFieldId": "fld2vP3XtZobYBWYe",
+      "views": [
+        {
+          "id": "viw7IzZaEypYDfmjg",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "id": "fldioCWDfqKTfMSbn",
+          "name": "Name",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldBNsikS7QS5tJWb",
+          "name": "Item",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldcCo4tp3xiMwkKn",
+          "name": "Type",
+          "options": {
+            "choices": [
+              {
+                "color": "blueLight2",
+                "id": "selbYPEhFGK3ffcyL",
+                "name": "Ambiguity"
+              },
+              {
+                "color": "cyanLight2",
+                "id": "sel9qlGRQil1AyzGG",
+                "name": "Missing Term"
+              },
+              {
+                "color": "tealLight2",
+                "id": "seluqUerYzMf0n8Au",
+                "name": "Inconsistency"
+              }
+            ]
+          },
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldeCYWUAyX3shQTw",
+          "name": "Area",
+          "options": {
+            "choices": [
+              {
+                "color": "redLight2",
+                "id": "selT6P7GLcpy7lXt1",
+                "name": "Airtable"
+              },
+              {
+                "color": "yellowLight2",
+                "id": "selqSyMGQBxxDf2Fx",
+                "name": "Make"
+              },
+              {
+                "color": "greenLight2",
+                "id": "selM6gg604p77IRUf",
+                "name": "GHL"
+              },
+              {
+                "color": "blueLight2",
+                "id": "sel22B75iXZJ9R5gE",
+                "name": "Testimony"
+              },
+              {
+                "color": "cyanLight2",
+                "id": "selRUJ7W7TDGQOlWF",
+                "name": "Docs"
+              },
+              {
+                "color": "tealLight2",
+                "id": "seluGngZleABdH4UQ",
+                "name": "Other"
+              }
+            ]
+          },
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld9tEJT0qCFnjsta",
+          "name": "Status",
+          "options": {
+            "choices": [
+              {
+                "color": "blueLight2",
+                "id": "selmWN3z6wyQa9Sqt",
+                "name": "Untriaged"
+              },
+              {
+                "color": "cyanLight2",
+                "id": "selDahiIRDDwFOv9A",
+                "name": "Clarified"
+              },
+              {
+                "color": "tealLight2",
+                "id": "selbgYkmRT15o4tCl",
+                "name": "Fixed in QB"
+              }
+            ]
+          },
+          "type": "singleSelect"
+        },
+        {
+          "description": "An AI generated summary of the Attachments field. Upload files to Attachments to generate a summary.",
+          "id": "fld3tRS1tIerOPHLT",
+          "name": "Attachment Summary",
+          "options": {
+            "prompt": [
+              "You are a professional document analyst specializing in summarizing content from various file types. Your task is to extract key points and provide a concise summary of the content found in the attached files. Ensure that the summary captures the main ideas and any important details without including unnecessary information.\n\nAnalyze the content of the attached files to identify the main themes and significant details. Summarize these points clearly and concisely, ensuring that the summary is informative and relevant to the document's purpose.\n\nFormat your response as plain text, keeping it concise and to the point. If you cannot summarize the content, output \"Unable to summarize the content.\" Example: \"The document discusses the impact of climate change on polar bears, highlighting the loss of habitat and food sources.\" (Real examples should be longer and more detailed.)\n\nFiles:\n",
+              {
+                "field": {
+                  "fieldId": "fld9tEJT0qCFnjsta"
+                }
+              }
+            ],
+            "referencedFieldIds": [
+              "fld9tEJT0qCFnjsta"
+            ]
+          },
+          "type": "aiText"
+        }
+      ],
+      "id": "tblo8mM8QkglfIs0t",
+      "name": "QB_Gaps",
+      "primaryFieldId": "fldioCWDfqKTfMSbn",
+      "views": [
+        {
+          "id": "viwPcbYS8BY3VB4Vg",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    }
+  ]
+}
