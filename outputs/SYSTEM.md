@@ -4,7 +4,7 @@ This atlas is generated from `inputs/**` and avoids inventing missing system str
 
 ## Snapshot
 
-- Inputs scanned: `29`
+- Inputs scanned: `63`
 - Source groups: `4`
 - Inferred system structure: `UNKNOWN`
 
@@ -17,28 +17,62 @@ This atlas is generated from `inputs/**` and avoids inventing missing system str
 | inputs/airtable/Airtable · Dancing King Client Vault · System Map · v0.md | 5710 | `cae4d0e7503f662214d9444d7f6aafd4ce77449c0023f7486446a9b610c2d0e1` | **Tables overview** | UNKNOWN |
 | inputs/airtable/AirtableSchema__DancingKingClientVault__2026-02-12T14_19_55.058Z.json.docx | 45207 | `3d547e95d0116db1b6b7672ac3bcf71a55da025fc35ee518d5f480cff0205df3` | UNKNOWN | UNKNOWN |
 | inputs/airtable/AirtableSchema__DancingKingClientVault__Latest.json | 173230 | `9913dd751b063d4e6c3cc3f34867d9d86a7f6d32059319d3d16bfefdd0df5598` | UNKNOWN | tables |
-| inputs/airtable/AirtableSchema__app0ezVqvqQRWTXIJ__Latest.json | 330704 | `b6934ec57f6d923ac3e4422903b9f37165f1f2188ea2754ea7244ece3da6c47e` | UNKNOWN | base_id, fetched_at, ok, tables |
-| inputs/airtable/AirtableSchema__appQFyu6Aejoq7yHP__Latest.json | 7948 | `3a29eafbb736f00999ddb4434194f98b620e6002c45e9a021e09512361df2558` | UNKNOWN | base_id, fetched_at, ok, tables |
-| inputs/airtable/README.md | 320 | `e4faa4405259f10af1ea9270fa1175490022e7b5aa55fc1d538dfba6f106b093` | Airtable inputs | UNKNOWN |
+| inputs/airtable/AirtableSchema__app0ezVqvqQRWTXIJ__Latest.json | 330704 | `3a3dba6853141e12fd2a2d3211471a1ebe629f62937eb8159f99c4d22caa323a` | UNKNOWN | base_id, fetched_at, ok, tables |
+| inputs/airtable/AirtableSchema__appQFyu6Aejoq7yHP__Latest.json | 7948 | `819a8e3991a4ec872abf9d8caa09734a3de63fbcd62ce4ce4f3aff285020f160` | UNKNOWN | base_id, fetched_at, ok, tables |
+| inputs/airtable/README.md | 320 | `3adf4ecfc1da52b4484e5f02c35de15e8e5de54d4abad6e475e8dc8771f25fd6` | Airtable inputs | UNKNOWN |
 
 ### make
 
 | Path | Size (bytes) | SHA-256 | Markdown heading | JSON top-level keys |
 | --- | ---: | --- | --- | --- |
 | inputs/make/MAKE_SCENARIOS.json | 162 | `9ff94a0d4a7cf7e3c350b91993842be6a41e3dcfc3d0e7ac2e2b19930d2c73e5` | UNKNOWN | scenario_ids |
-| inputs/make/MAKE_SCENARIO_INDEX__Latest.json | 1243 | `da50905f33f80a2a2588ce2ee1b3ecd49a37c093b249d099c69a14df3d0734d4` | UNKNOWN | base_url, count, fetched_at, organization_id, scenario_source, scenarios, team_id |
-| inputs/make/MAKE_SCENARIO_LISTING__Latest.json | 462 | `7f2f37951a22d754165f2bbffddd60b5ba0d39be12e845240a02372b3f96eaf2` | UNKNOWN | fetched_at, ok, organization_id, raw, scenarios, status, team_id |
-| inputs/make/MakeProbe__Latest.json | 1486 | `fb13ee8515e170aa0436ceebaff16fe83c4a14fa5fda460b586fa9efae6a3367` | UNKNOWN | base_url, count, fetched_at, organization_id, scenario_source, scenarios, team_id |
+| inputs/make/MAKE_SCENARIO_INDEX__Latest.json | 4881 | `a80a2f2564c4341f69b3a9936c5d68ee18b0e5b1a5357199530fb1b89870967c` | UNKNOWN | base_url, count, fetched_at, organization_id, scenario_source, scenarios, team_id |
+| inputs/make/MAKE_SCENARIO_LISTING__Latest.json | 66863 | `1ea33f5fe73d096287deeb52abb17d02ed648a497f04c0a1a68f2ddf60265d9c` | UNKNOWN | fetched_at, ok, organization_id, raw, scenarios, status, team_id |
+| inputs/make/MakeProbe__Latest.json | 6042 | `cfeb55a1308aa48cdc86f5661bbad3bc13aee7f2c4654055854242407c2bca09` | UNKNOWN | base_url, count, fetched_at, organization_id, scenario_source, scenarios, team_id |
 | inputs/make/README.md | 575 | `bd15888f70af735fc7f74527db150d07b210fef7bdfeb9870eb21cf7c3675169` | Make inputs | UNKNOWN |
-| inputs/make/blueprints/MakeBlueprint__3798600__Latest.json | 309062 | `707c4aa8b6347ae1d3e4aaa157057bc41e45d5eabf815fd72e359956d3c10024` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__3952284__Latest.json | 298372 | `3ebaf6f471981099063a9b09c9a536f33f45d01dd5072ed30317874a41960740` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__3996198__Latest.json | 25316 | `38d47bbccbd391fec13952589c0282ba00d8d9495d9c09ec2fa86469d8292b27` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__4001823__Latest.json | 39815 | `0c072bdff144454269ca1d6539ac8a3ca92a9f9be06f959dadbb5d3838ae6da0` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__4002164__Latest.json | 32336 | `16c5d093e13aaef9b387ef3d71751bce5a16672477c2f2a06187b48d803e8137` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__4002272__Latest.json | 28557 | `70b17322fef235cab07888a6b15e4ab0a5752dcf578879c98db1187a50b01045` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__4091455__Latest.json | 998940 | `421d5504c0513433fe80eee95e424e203255eee1ced0b8bdda43871c62c6035e` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__4093385__Latest.json | 822257 | `ddb71bec8df002858996885073e8f4f48f41a135cd8db8654d80b542152984ac` | UNKNOWN | fetched_at, response, scenario_id, status |
-| inputs/make/blueprints/MakeBlueprint__4206316__Latest.json | 26384 | `72c96febcb8aa6759af26e3e2f9dc6e3590b8270e037634aeb605592f7abd449` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__2348337__Latest.json | 29039 | `e06585eb86f993e7c87941babe74dcc1abc84183bef72bff28cdfd1cfcdfab4a` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3664392__Latest.json | 133837 | `a1b0a252e3a4da10f6bb47eeccc63cf90cffbfdd603021730f4537fa61e0a05d` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3673026__Latest.json | 193486 | `45ff0a0c0aa97ed1582282ff07e4f4b221db88d9e6ddf25864d330bb3e8b2ae0` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3686763__Latest.json | 132491 | `8f2278c4635a31f5a0313385608b00c525f582bd6a1f5c72e19eae50106dd47c` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3686991__Latest.json | 138096 | `f27b2e943d72e3a15fc03da2bccd11e73d49e2658ca5500c1ad1e992c6dcd134` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3687011__Latest.json | 87666 | `bc2af2f4e799613e46852f88188ceaeb74f6f3a047dd38e41cd2825e212fc771` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3733465__Latest.json | 571925 | `983efebfc04754c3f3080b64e3dc8c2c7ba5f4af4c46b198eb42ade49ea5f3df` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3738189__Latest.json | 146399 | `0de5e32d81ea94bb690afc37f356784586d1ad5b53556cd620dd9b6a1a6e46b5` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3744510__Latest.json | 338031 | `73ee7e074da322823c8b62d41fa98a2d965c1147881faa1e73f57602e6524eb6` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3745933__Latest.json | 124315 | `af6255ac07a4d83cd7b3b6f7b757fbf276d25d51f83c3d8ef803290d2c5431be` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3761572__Latest.json | 230606 | `547bb0becfa76d7678578d1e24483d80847c013a38169d1f03ceffc1acd463e0` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3795815__Latest.json | 211984 | `110288c1c7296d38f9729aae2cf4d21c755897421dbbb09dd931086aa93ec3f2` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3798600__Latest.json | 309062 | `7b1657c3f2f6f14ee8084c1ba313bda8c9df86a663ceae978a043ba090966d89` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3818644__Latest.json | 195490 | `c6f86e8712efc7a1a8d00c750c9124152c9c402986073267d44398cefd54f67f` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3818650__Latest.json | 188936 | `dfd408664ab084a4a9dab789bed5283297b65973605a7717c64da71d590bb7d1` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3818652__Latest.json | 214238 | `ce70bffa8204beb60476e3b64152e7701cc97a367bcec568894d3d262db7ab64` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3818663__Latest.json | 198409 | `88cbc83a6f68dcda30cf003061da5b23feecf6b33d8dcffa8943c926c1b973f6` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3824254__Latest.json | 498670 | `f2c08ab35111312854488c87c91f8ce5534321f845beb7da561fbcec92548e17` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3824833__Latest.json | 192595 | `a43f40bebe18caafeeb0d3b2a93a94c316ab0692efe87485deb4365217dd4c4f` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3859876__Latest.json | 3320532 | `2e602331bf966a79bdbf196d03ee57c5920a51e8e002eb549959fe0ff1a98003` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3920516__Latest.json | 211170 | `430028ef6dbed2c27302ecb92d890557da98fbabcd49059fd3840ae59b748fa0` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3920818__Latest.json | 226847 | `49b29e75c57862d5a4970782c1f9caeaf3fd335dbadf0df77b8c430683bb08c6` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3952284__Latest.json | 298372 | `5817a579ea477f0457bedc169a5ffab2670a105eec5c25028e2f6e9f334f7936` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3961170__Latest.json | 571916 | `27093f088c4fd441d93d470374babf81601f3ef23604a053c107560a5dab1724` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__3996198__Latest.json | 25316 | `075f227442c12f6716e483bea9beb32e38f63804dab28b98423ac46d3d68dc45` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4001823__Latest.json | 39815 | `7b54cb15bd8ecc353c332a86f00bff7ac09f49013cfa72d83628ae8df4faf7c1` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4002164__Latest.json | 32336 | `db60efc48a13387de1edcc74ebc7e0977ffc8b0c8eb4750c2e32dda05a397de8` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4002272__Latest.json | 28557 | `d7ed94145ab9c21df70639f0de9ecf6fc068dc59c6ad255af985110ae70e2a8e` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4055279__Latest.json | 226864 | `cb475a67cfdd65fec1ddad43841956ba875c3d24bd9b3b7e219c52427d2d4e3c` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4055283__Latest.json | 221165 | `fa1fbc42eb6b6d47a0e8e975b05ef6f22ccaed09773ac0b87c9801039eb8bda7` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4091455__Latest.json | 998940 | `4c3a9919ab63f1756207f036691383fd0c0a657d125c01dea2069d01e87970eb` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4091456__Latest.json | 211991 | `7994b00ae4b36308faa7fe23cd93b70c343c42e133c648676b66f114d7065c88` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4093385__Latest.json | 822257 | `f9fa5ea41cfc93af29e06c6688532159b766312ad39f23fc80152c505c9ac4d9` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4121916__Latest.json | 25496 | `6b108a0d2cd0fbd60812d8e21af933be9ba86c511b53b7506242d2980203f2f1` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4123962__Latest.json | 20567 | `4fe0fdb55c9e33e0fc084f62f7ca4bfb338a2eb953e9f4347d10b15df1372665` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4124710__Latest.json | 23818 | `9ed56e765e6fa71c66b5c2da4080bfe72a59c4df3ad40607c2df176fc57836bd` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4127837__Latest.json | 17022 | `52c73adfce98be84ed43707a6c53ccd2d640ac62ae68bfeb16e85ad4c69801f9` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4128249__Latest.json | 16293 | `52b5eb1bfe76e7cac4beb23c50f54611571403d172a4315b75360b20081ea384` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4128593__Latest.json | 12783 | `5bb1fb64168c687ebb0b7f40de9ed3390dfc04dc885c14a257d5b962130f3fa2` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4148204__Latest.json | 217379 | `3014e2cd04c44603246c83fcecd50135e7958fb3ddec2920ee4321bdb1d5f65c` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4185478__Latest.json | 890739 | `3feec613f18fc2720e459b995edbebcdcc56ce63fee3bc17466a1c04a384eb59` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4206316__Latest.json | 26384 | `8a8176f5a7b927572bd09c8bf8c426ea6c78988efa33bf3a1fc646f8cf8086c4` | UNKNOWN | fetched_at, response, scenario_id, status |
+| inputs/make/blueprints/MakeBlueprint__4207345__Latest.json | 12419 | `1d5f996f290d3243b59fa486de87f75c49b68e4d30b3b40ee8a2614b6912d32a` | UNKNOWN | fetched_at, response, scenario_id, status |
 | inputs/make/blueprints/README.md | 1 | `01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b` | UNKNOWN | UNKNOWN |
 | inputs/make/digests/MakeDigest__C12IntelReportDigest__3798600__v0.1.json.md | 10566 | `20d070c17715a79f76e8e70250313c5a84d7d093676800babe0330abe75d7248` | **C12 Intel Report – Scenario Digest** | UNKNOWN |
 | inputs/make/digests/MakeDigest__EmailConveyor__4093385__2026-02-12T15-09-37.json.md | 12100 | `e90aa6df102bf254902c60ce550c539d26e2ac5cc475d43d61d9c0c821ac8803` | **1\. Scenario Overview** | UNKNOWN |

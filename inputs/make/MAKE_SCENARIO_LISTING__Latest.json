@@ -1,14 +1,2672 @@
 {
-  "fetched_at": "2026-02-23T15:42:00Z",
-  "ok": false,
-  "organization_id": "4498137",
+  "fetched_at": "2026-02-23T16:09:25Z",
+  "ok": true,
+  "organization_id": null,
   "raw": {
-    "body": "{\"detail\":\"\\\"teamId\\\" and \\\"organizationId\\\" cannot be used together.\",\"message\":\"Bad Request\",\"code\":\"SC400\",\"suberrors\":[]}",
-    "error": "HTTPError",
-    "status": 400,
-    "url": "https://us2.make.com/api/v2/scenarios?organizationId=4498137&teamId=1102819"
+    "pg": {
+      "limit": 500,
+      "offset": 0,
+      "returnTotalCount": false,
+      "sortBy": "proprietal",
+      "sortDir": "desc"
+    },
+    "scenarios": [
+      {
+        "allDlqCount": 0,
+        "centicredits": 152100,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-21T21:14:51.665Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": 1789745,
+        "id": 3952284,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-20T05:48:54.675Z",
+        "name": "10. Engagements to GHL",
+        "nextExec": null,
+        "operations": 1521,
+        "scheduling": {
+          "maximum_runs_per_minute": 4,
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 6975896,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "highlevel",
+          "builtin",
+          "highlevel",
+          "airtable",
+          "highlevel",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 258600,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-09T03:32:14.382Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": 1861581,
+        "id": 4093385,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-20T00:33:42.152Z",
+        "name": "EMAIL CONVEYOR - GO",
+        "nextExec": null,
+        "operations": 2586,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 41706809,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable",
+          "json",
+          "http",
+          "json",
+          "airtable",
+          "builtin",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "airtable",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 8500,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-12T21:26:02.386Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 206768,
+        "hookId": 1878893,
+        "id": 4128249,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-13T21:02:55.078Z",
+        "name": "Get Latest Make Blueprint",
+        "nextExec": null,
+        "operations": 85,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 4990069,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable",
+          "google-drive",
+          "util",
+          "gateway"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 2500,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-12T05:58:06.559Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 206768,
+        "hookId": 1875858,
+        "id": 4121916,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-12T06:15:34.500Z",
+        "name": "GetLatestQB",
+        "nextExec": null,
+        "operations": 25,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 1305015,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable",
+          "google-docs",
+          "gateway"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 638800,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-08T20:26:15.360Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": 1860656,
+        "id": 4091455,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-09T06:05:51.953Z",
+        "name": "Intel Conveyor",
+        "nextExec": null,
+        "operations": 6388,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 87379182,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable",
+          "http",
+          "util",
+          "regexp",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-28T06:59:19.567Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": 1814926,
+        "id": 4002272,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-21T21:55:44.644Z",
+        "name": "Partner Content CSVs to Content",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 685900,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-28T05:13:32.569Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": 1814700,
+        "id": 4001823,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-29T18:15:22.689Z",
+        "name": "Partner History (prospects) CSV to History",
+        "nextExec": "2026-02-11T20:55:15.453Z",
+        "operations": 6859,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 6472301,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 1484900,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-27T17:45:21.774Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": 1811528,
+        "id": 3996198,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-11T21:26:47.266Z",
+        "name": "Partner LinkedIn CSVs to Connections",
+        "nextExec": "2026-02-11T20:55:55.172Z",
+        "operations": 14849,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 7339775,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 15400,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-28T06:39:01.777Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": 1814871,
+        "id": 4002164,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-28T06:51:32.483Z",
+        "name": "Partner Members CSVs to Members",
+        "nextExec": null,
+        "operations": 154,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 69628,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 1800,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-12T15:09:56.413Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 206768,
+        "hookId": 1877105,
+        "id": 4124710,
+        "isActive": true,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": true,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-12T16:05:42.344Z",
+        "name": "Snapshot \u2014 Make Blueprints (Core)",
+        "nextExec": null,
+        "operations": 18,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 1925369,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "make",
+          "google-drive",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-04T00:03:14.074Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188721,
+        "hookId": null,
+        "id": 3824254,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-07T23:58:52.047Z",
+        "name": "0b_Val Ay Request",
+        "nextExec": "2026-01-05T11:50:00.000Z",
+        "operations": 0,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "months": [],
+              "time": [
+                "06:50",
+                "18:50"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "google-email",
+          "http",
+          "json",
+          "builtin",
+          "airtable",
+          "builtin",
+          "google-email",
+          "util",
+          "google-email",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "google-email",
+          "airtable",
+          "airtable",
+          "google-email"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-17T22:57:16.578Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3733465,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-04T02:56:33.930Z",
+        "name": "0IMPORTa: C12 Clay People Sheet to Airtable",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "google-sheets",
+          "airtable",
+          "builtin",
+          "airtable",
+          "builtin",
+          "airtable",
+          "airtable",
+          "airtable",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-19T15:01:58.252Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3744510,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-07T20:48:41.553Z",
+        "name": "1a: Enhance Clay Leaders with Company Data ",
+        "nextExec": "2026-01-04T04:12:58.426Z",
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "google-sheets",
+          "builtin",
+          "airtable",
+          "airtable",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-08T15:10:40.432Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3664392,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2025-12-21T06:23:06.284Z",
+        "name": "1: R1 Pass",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "builtin",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-19T19:16:26.360Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3745933,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2025-12-21T06:28:17.927Z",
+        "name": "2: Education Pass",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 11000,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-29T19:08:51.400Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3795815,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-04T02:47:15.055Z",
+        "name": "2: Scout Pass",
+        "nextExec": "2026-01-23T17:15:00.000Z",
+        "operations": 110,
+        "scheduling": {
+          "interval": 900,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "05:00",
+                "23:00"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 2252236,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "util",
+          "regexp",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-08T20:26:34.791Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 4091456,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-08T20:26:34.791Z",
+        "name": "2: Scout Pass (copy)",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "05:00",
+                "23:00"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": null,
+        "usedPackages": [
+          "airtable",
+          "http",
+          "util",
+          "regexp",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 400,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-02T22:12:50.761Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3818663,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-04T02:48:04.690Z",
+        "name": "3. Company and Capital",
+        "nextExec": "2026-01-23T18:00:00.000Z",
+        "operations": 4,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5
+              ],
+              "months": [],
+              "time": [
+                "11:00",
+                "19:00"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 76064,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 400,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-02T22:11:45.057Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3818652,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-04T02:51:53.127Z",
+        "name": "4. Origin and Crucibles",
+        "nextExec": "2026-01-23T17:20:00.000Z",
+        "operations": 4,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "11:20",
+                "23:20"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 78229,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-18T15:34:23.657Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3738189,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-18T13:52:44.519Z",
+        "name": "4: Stage Pass",
+        "nextExec": "2026-01-25T14:10:00.000Z",
+        "operations": 0,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                0
+              ],
+              "months": [],
+              "time": [
+                "09:10",
+                "20:52"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-11T04:25:47.460Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3686763,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2025-12-21T06:36:09.227Z",
+        "name": "5. C12 First Meeting",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 78300,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-02T22:11:21.781Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3818650,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-04T03:03:58.270Z",
+        "name": "5. Family and Legacy",
+        "nextExec": "2026-01-23T17:28:00.000Z",
+        "operations": 783,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5,
+                0
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "12:28",
+                "19:28"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 16980271,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-11T05:07:22.883Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3686991,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2025-12-21T05:49:16.513Z",
+        "name": "6: C12 second pass",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "builtin",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 137400,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-02T22:10:53.104Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3818644,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-09T17:26:18.248Z",
+        "name": "6. Valence and Room Fit",
+        "nextExec": "2026-01-23T20:38:00.000Z",
+        "operations": 1374,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5,
+                0
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "15:38",
+                "19:38"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 31692048,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 140200,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-22T20:55:51.198Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188719,
+        "hookId": null,
+        "id": 3761572,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-11T17:30:50.603Z",
+        "name": "7. Scoring Pass",
+        "nextExec": "2026-02-12T17:30:00.000Z",
+        "operations": 1402,
+        "scheduling": {
+          "date": "2026-02-12T17:30:00.000Z",
+          "type": "once"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 38241479,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 45700,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-17T17:44:28.487Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 200809,
+        "hookId": null,
+        "id": 3920818,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-04T01:48:14.354Z",
+        "name": "8.1 C12 Cold Email Creation",
+        "nextExec": "2026-01-24T01:10:00.000Z",
+        "operations": 457,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5,
+                6
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "20:10",
+                "06:45"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 14853115,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 8200,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-04T01:49:38.727Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 200809,
+        "hookId": null,
+        "id": 4055283,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-19T16:20:14.329Z",
+        "name": "8.1 C12 Connected Email Creation",
+        "nextExec": null,
+        "operations": 82,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5,
+                6
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "20:10",
+                "06:45"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 2331130,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-04T01:48:44.360Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 200809,
+        "hookId": null,
+        "id": 4055279,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-04T01:49:07.737Z",
+        "name": "8.1 C12 History/Merge Email Creation",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5,
+                6
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "20:10",
+                "06:45"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-30T04:23:41.101Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": null,
+        "id": 3798600,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-14T21:41:12.814Z",
+        "name": "8a. C12 Intel Report - Deep Pass",
+        "nextExec": "2026-01-05T12:30:00.000Z",
+        "operations": 0,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "months": [],
+              "time": [
+                "07:30",
+                "19:30"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "util",
+          "google-docs",
+          "google-docs",
+          "google-drive",
+          "google-drive",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 273900,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-17T16:39:44.959Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 200809,
+        "hookId": null,
+        "id": 3920516,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-19T16:02:23.866Z",
+        "name": "8. C12 Tagging Pass",
+        "nextExec": "2027-01-01T10:00:00.000Z",
+        "operations": 2739,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                4,
+                5,
+                6
+              ],
+              "months": [
+                1
+              ],
+              "time": [
+                "18:00",
+                "05:00"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 63503993,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "json",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-04T02:45:39.100Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188721,
+        "hookId": null,
+        "id": 3824833,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-08T01:16:48.095Z",
+        "name": "9. Val_C12 Send Report When Ready",
+        "nextExec": "2026-01-05T13:00:00.000Z",
+        "operations": 0,
+        "scheduling": {
+          "interval": 3600,
+          "restrict": [
+            {
+              "days": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "months": [],
+              "time": [
+                "08:00",
+                "20:00"
+              ]
+            }
+          ],
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "google-email",
+          "airtable",
+          "util",
+          "google-email",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "google-email"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 171100,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-15T20:05:56.336Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 200809,
+        "hookId": null,
+        "id": 4148204,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-19T17:33:38.396Z",
+        "name": "add linkedin notes",
+        "nextExec": null,
+        "operations": 1711,
+        "scheduling": {
+          "date": "2026-02-16T22:09:00.000Z",
+          "type": "once"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 62489273,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 1200,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-22T20:41:26.853Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 210062,
+        "hookId": null,
+        "id": 4206316,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-22T21:14:31.294Z",
+        "name": "Atlas \u2013 Register Scenario",
+        "nextExec": null,
+        "operations": 12,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 28449,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "http",
+          "http"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-11T05:12:01.788Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": null,
+        "hookId": null,
+        "id": 3687011,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2025-12-11T05:39:00.836Z",
+        "name": "C12 Third Pass",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "airtable",
+          "http",
+          "json",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 2400,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-12T20:38:32.669Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 206768,
+        "hookId": 1878667,
+        "id": 4127837,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-13T23:02:14.643Z",
+        "name": "Get Latest Airtable Schema for Dancing King Client Vault",
+        "nextExec": null,
+        "operations": 24,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 1702108,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "airtable",
+          "google-drive",
+          "util",
+          "gateway"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-07-05T19:06:58.609Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188717,
+        "hookId": null,
+        "id": 2348337,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2025-07-06T15:51:38.690Z",
+        "name": "Integration Google Sheets",
+        "nextExec": "2026-01-04T11:00:00.000Z",
+        "operations": 0,
+        "scheduling": {
+          "time": "06:00",
+          "type": "daily"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "google-sheets",
+          "builtin",
+          "google-email",
+          "google-email"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 800,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-12T22:11:00.280Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 206768,
+        "hookId": null,
+        "id": 4128593,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-12T22:23:03.765Z",
+        "name": "Integration HTTP",
+        "nextExec": null,
+        "operations": 8,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 1916948,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "http"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 500,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-22T23:32:44.391Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": null,
+        "hookId": null,
+        "id": 4207345,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-22T23:41:57.167Z",
+        "name": "Integration HTTP",
+        "nextExec": null,
+        "operations": 5,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 36587,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "http"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-08T23:41:46.387Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": null,
+        "hookId": null,
+        "id": 3859876,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-16T12:53:28.285Z",
+        "name": "Integration Webhooks",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway",
+          "util",
+          "util",
+          "airtable",
+          "builtin",
+          "http",
+          "json",
+          "http",
+          "builtin",
+          "airtable",
+          "builtin",
+          "google-email",
+          "util",
+          "google-email",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "util",
+          "google-email",
+          "airtable",
+          "http",
+          "util",
+          "regexp",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "airtable",
+          "http",
+          "json",
+          "util",
+          "google-docs",
+          "google-docs",
+          "google-drive",
+          "google-drive",
+          "airtable",
+          "airtable",
+          "highlevel",
+          "builtin",
+          "highlevel",
+          "builtin",
+          "highlevel",
+          "highlevel",
+          "google-email",
+          "google-email",
+          "highlevel",
+          "builtin",
+          "highlevel",
+          "highlevel"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-01-22T21:14:40.812Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188721,
+        "hookId": null,
+        "id": 3961170,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-01-22T21:14:40.812Z",
+        "name": "LinkedIn CSVs to Connections Table",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": null,
+        "usedPackages": [
+          "google-sheets",
+          "airtable",
+          "builtin",
+          "airtable",
+          "builtin",
+          "airtable",
+          "airtable",
+          "airtable",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2025-12-09T16:09:58.642Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 188721,
+        "hookId": null,
+        "id": 3673026,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2025-12-21T06:12:34.928Z",
+        "name": "Pros R1 Sheet to Airtabl",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "google-sheets",
+          "airtable",
+          "builtin",
+          "builtin",
+          "airtable",
+          "airtable",
+          "airtable"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 47100,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-12T13:44:29.084Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": 206768,
+        "hookId": null,
+        "id": 4123962,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-12T15:04:46.877Z",
+        "name": "Snapshot \u2014 Airtable Schema (Dancing King Client Vault)",
+        "nextExec": "2026-02-15T01:48:07.065Z",
+        "operations": 471,
+        "scheduling": {
+          "interval": 900,
+          "type": "indefinitely"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 40639772,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "http",
+          "google-drive"
+        ]
+      },
+      {
+        "allDlqCount": 0,
+        "centicredits": 0,
+        "chainingRole": "none",
+        "concept": false,
+        "created": "2026-02-20T00:37:38.264Z",
+        "createdByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "description": "",
+        "deviceId": null,
+        "deviceScope": null,
+        "devices": [],
+        "dlqCount": 0,
+        "folderId": null,
+        "hookId": 1907203,
+        "id": 4185478,
+        "isActive": false,
+        "isPaused": false,
+        "isShared": false,
+        "isinvalid": false,
+        "islinked": false,
+        "islocked": false,
+        "iswaiting": false,
+        "lastEdit": "2026-02-20T00:38:00.226Z",
+        "name": "Val Straight Shot",
+        "nextExec": null,
+        "operations": 0,
+        "scheduling": {
+          "type": "immediately"
+        },
+        "slots": null,
+        "teamId": 1102819,
+        "transfer": 0,
+        "type": "scenario",
+        "updatedByUser": {
+          "email": "pete@petegall.com",
+          "id": 4721142,
+          "name": "Pete Gall"
+        },
+        "usedPackages": [
+          "gateway"
+        ]
+      }
+    ]
   },
-  "scenarios": [],
-  "status": 400,
+  "scenarios": [
+    {
+      "name": "10. Engagements to GHL",
+      "scenario_id": "3952284"
+    },
+    {
+      "name": "EMAIL CONVEYOR - GO",
+      "scenario_id": "4093385"
+    },
+    {
+      "name": "Get Latest Make Blueprint",
+      "scenario_id": "4128249"
+    },
+    {
+      "name": "GetLatestQB",
+      "scenario_id": "4121916"
+    },
+    {
+      "name": "Intel Conveyor",
+      "scenario_id": "4091455"
+    },
+    {
+      "name": "Partner Content CSVs to Content",
+      "scenario_id": "4002272"
+    },
+    {
+      "name": "Partner History (prospects) CSV to History",
+      "scenario_id": "4001823"
+    },
+    {
+      "name": "Partner LinkedIn CSVs to Connections",
+      "scenario_id": "3996198"
+    },
+    {
+      "name": "Partner Members CSVs to Members",
+      "scenario_id": "4002164"
+    },
+    {
+      "name": "Snapshot \u2014 Make Blueprints (Core)",
+      "scenario_id": "4124710"
+    },
+    {
+      "name": "0b_Val Ay Request",
+      "scenario_id": "3824254"
+    },
+    {
+      "name": "0IMPORTa: C12 Clay People Sheet to Airtable",
+      "scenario_id": "3733465"
+    },
+    {
+      "name": "1a: Enhance Clay Leaders with Company Data",
+      "scenario_id": "3744510"
+    },
+    {
+      "name": "1: R1 Pass",
+      "scenario_id": "3664392"
+    },
+    {
+      "name": "2: Education Pass",
+      "scenario_id": "3745933"
+    },
+    {
+      "name": "2: Scout Pass",
+      "scenario_id": "3795815"
+    },
+    {
+      "name": "2: Scout Pass (copy)",
+      "scenario_id": "4091456"
+    },
+    {
+      "name": "3. Company and Capital",
+      "scenario_id": "3818663"
+    },
+    {
+      "name": "4. Origin and Crucibles",
+      "scenario_id": "3818652"
+    },
+    {
+      "name": "4: Stage Pass",
+      "scenario_id": "3738189"
+    },
+    {
+      "name": "5. C12 First Meeting",
+      "scenario_id": "3686763"
+    },
+    {
+      "name": "5. Family and Legacy",
+      "scenario_id": "3818650"
+    },
+    {
+      "name": "6: C12 second pass",
+      "scenario_id": "3686991"
+    },
+    {
+      "name": "6. Valence and Room Fit",
+      "scenario_id": "3818644"
+    },
+    {
+      "name": "7. Scoring Pass",
+      "scenario_id": "3761572"
+    },
+    {
+      "name": "8.1 C12 Cold Email Creation",
+      "scenario_id": "3920818"
+    },
+    {
+      "name": "8.1 C12 Connected Email Creation",
+      "scenario_id": "4055283"
+    },
+    {
+      "name": "8.1 C12 History/Merge Email Creation",
+      "scenario_id": "4055279"
+    },
+    {
+      "name": "8a. C12 Intel Report - Deep Pass",
+      "scenario_id": "3798600"
+    },
+    {
+      "name": "8. C12 Tagging Pass",
+      "scenario_id": "3920516"
+    },
+    {
+      "name": "9. Val_C12 Send Report When Ready",
+      "scenario_id": "3824833"
+    },
+    {
+      "name": "add linkedin notes",
+      "scenario_id": "4148204"
+    },
+    {
+      "name": "Atlas \u2013 Register Scenario",
+      "scenario_id": "4206316"
+    },
+    {
+      "name": "C12 Third Pass",
+      "scenario_id": "3687011"
+    },
+    {
+      "name": "Get Latest Airtable Schema for Dancing King Client Vault",
+      "scenario_id": "4127837"
+    },
+    {
+      "name": "Integration Google Sheets",
+      "scenario_id": "2348337"
+    },
+    {
+      "name": "Integration HTTP",
+      "scenario_id": "4128593"
+    },
+    {
+      "name": "Integration HTTP",
+      "scenario_id": "4207345"
+    },
+    {
+      "name": "Integration Webhooks",
+      "scenario_id": "3859876"
+    },
+    {
+      "name": "LinkedIn CSVs to Connections Table",
+      "scenario_id": "3961170"
+    },
+    {
+      "name": "Pros R1 Sheet to Airtabl",
+      "scenario_id": "3673026"
+    },
+    {
+      "name": "Snapshot \u2014 Airtable Schema (Dancing King Client Vault)",
+      "scenario_id": "4123962"
+    },
+    {
+      "name": "Val Straight Shot",
+      "scenario_id": "4185478"
+    }
+  ],
+  "status": 200,
   "team_id": "1102819"
 }
