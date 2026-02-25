@@ -1,6 +1,6 @@
 {
   "base_id": "app0ezVqvqQRWTXIJ",
-  "fetched_at": "2026-02-24T04:26:18Z",
+  "fetched_at": "2026-02-25T04:27:52Z",
   "ok": true,
   "tables": [
     {
@@ -3596,7 +3596,7 @@
           "id": "fld2XG0TbyvvEg855",
           "name": "LinkedIn_Key",
           "options": {
-            "formula": "IF(\n  {fldisYKNJOKRVxnBn},\n  REGEX_REPLACE(\n    REGEX_REPLACE(\n      REGEX_REPLACE(\n        REGEX_REPLACE(\n          LOWER(TRIM({fldisYKNJOKRVxnBn})),\n          '^https?://',\n          ''\n        ),\n        '^www\\\\.',\n        ''\n      ),\n      '\\\\?.*$',\n      ''\n    ),\n    '/+$',\n    ''\n  )\n)",
+            "formula": "IF(\n  {fldisYKNJOKRVxnBn},\n  REGEX_REPLACE(\n    REGEX_REPLACE(\n      REGEX_REPLACE(\n        REGEX_REPLACE(\n          REGEX_REPLACE(\n            LOWER(TRIM({fldisYKNJOKRVxnBn})),\n            '^https?://',\n            ''\n          ),\n          '^www\\\\.',\n          ''\n        ),\n        '\\\\?.*$',\n        ''\n      ),\n      '#.*$',\n      ''\n    ),\n    '/+$',\n    ''\n  )\n)",
             "isValid": true,
             "referencedFieldIds": [
               "fldisYKNJOKRVxnBn"
@@ -8847,6 +8847,32 @@
           "type": "multipleLookupValues"
         },
         {
+          "id": "fldKXh3w741iaLdyZ",
+          "name": "Brand",
+          "options": {
+            "fieldIdInLinkedTable": "fldQpf917f8sr1kCA",
+            "isValid": true,
+            "recordLinkFieldId": "fldRoQWdVOONJUvRU",
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "type": "multipleLookupValues"
+        },
+        {
+          "id": "fldOx2jxtTPfsdkQr",
+          "name": "Partner Label (from Partners)",
+          "options": {
+            "fieldIdInLinkedTable": "fldblmH09GUpyvwBh",
+            "isValid": true,
+            "recordLinkFieldId": "fldRoQWdVOONJUvRU",
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "type": "multipleLookupValues"
+        },
+        {
           "id": "fldnOLVr1utdscDZt",
           "name": "Partner Name",
           "options": {
@@ -8882,7 +8908,7 @@
         },
         {
           "id": "fldwpLTEK91s4ZF6w",
-          "name": "LinkedIn URL",
+          "name": "LinkedIn_URL",
           "type": "url"
         },
         {
@@ -9090,23 +9116,23 @@
         },
         {
           "id": "fldmUcx8iqgkdz2Fw",
-          "name": "Status",
+          "name": "Processed",
           "options": {
             "choices": [
               {
                 "color": "redLight2",
                 "id": "selVdzkJ4JOqILBLG",
-                "name": "Todo"
-              },
-              {
-                "color": "yellowLight2",
-                "id": "selVaXQgGDe9rVep8",
-                "name": "In progress"
+                "name": "Unprocessed"
               },
               {
                 "color": "greenLight2",
                 "id": "selFpGDfUgB3sNcjO",
-                "name": "Done"
+                "name": "Processed"
+              },
+              {
+                "color": "yellowLight2",
+                "id": "selVaXQgGDe9rVep8",
+                "name": "Trigger cheat"
               }
             ]
           },
@@ -9148,32 +9174,6 @@
           "id": "fldgf0DmHedmhUoRL",
           "name": "Leader Link (Connections)",
           "type": "singleLineText"
-        },
-        {
-          "id": "fldKXh3w741iaLdyZ",
-          "name": "Brand",
-          "options": {
-            "fieldIdInLinkedTable": "fldQpf917f8sr1kCA",
-            "isValid": true,
-            "recordLinkFieldId": "fldRoQWdVOONJUvRU",
-            "result": {
-              "type": "singleLineText"
-            }
-          },
-          "type": "multipleLookupValues"
-        },
-        {
-          "id": "fldOx2jxtTPfsdkQr",
-          "name": "Partner Label (from Partners)",
-          "options": {
-            "fieldIdInLinkedTable": "fldblmH09GUpyvwBh",
-            "isValid": true,
-            "recordLinkFieldId": "fldRoQWdVOONJUvRU",
-            "result": {
-              "type": "singleLineText"
-            }
-          },
-          "type": "multipleLookupValues"
         }
       ],
       "id": "tblWjuuVsBbcBXL1S",
@@ -9330,14 +9330,14 @@
         },
         {
           "id": "fld4uK60z6lL6d7oc",
-          "name": "LinkedIn URL",
+          "name": "LinkedIn_URL",
           "type": "url"
         },
         {
           "id": "fldNHfmTUpkATxlXZ",
-          "name": "LinkedIn Key",
+          "name": "LinkedIn_Key",
           "options": {
-            "formula": "LOWER(\n  REGEX_REPLACE(\n    REGEX_REPLACE(\n      REGEX_REPLACE({fld4uK60z6lL6d7oc}, \"\\\\?.*$\", \"\"),\n      \"/+$\",\n      \"\"\n    ),\n    \"^http://\",\n    \"https://\"\n  )\n)\n",
+            "formula": "IF(\n  {fld4uK60z6lL6d7oc},\n  REGEX_REPLACE(\n    REGEX_REPLACE(\n      REGEX_REPLACE(\n        REGEX_REPLACE(\n          REGEX_REPLACE(\n            LOWER(TRIM({fld4uK60z6lL6d7oc})),\n            '^https?://',\n            ''\n          ),\n          '^www\\\\.',\n          ''\n        ),\n        '\\\\?.*$',\n        ''\n      ),\n      '#.*$',\n      ''\n    ),\n    '/+$',\n    ''\n  )\n)\n",
             "isValid": true,
             "referencedFieldIds": [
               "fld4uK60z6lL6d7oc"
@@ -9862,7 +9862,7 @@
           "id": "fldqiRBkFwstZlLg1",
           "name": "LInkedIn_Key",
           "options": {
-            "formula": "IF(\n  {fldpXituUydEJz09r},\n  REGEX_REPLACE(\n    REGEX_REPLACE(\n      REGEX_REPLACE(\n        REGEX_REPLACE(\n          LOWER(TRIM({fldpXituUydEJz09r})),\n          '^https?://',\n          ''\n        ),\n        '^www\\\\.',\n        ''\n      ),\n      '\\\\?.*$',\n      ''\n    ),\n    '/+$',\n    ''\n  )\n)",
+            "formula": "IF(\n  {fldpXituUydEJz09r},\n  REGEX_REPLACE(\n    REGEX_REPLACE(\n      REGEX_REPLACE(\n        REGEX_REPLACE(\n          REGEX_REPLACE(\n            LOWER(TRIM({fldpXituUydEJz09r})),\n            '^https?://',\n            ''\n          ),\n          '^www\\\\.',\n          ''\n        ),\n        '\\\\?.*$',\n        ''\n      ),\n      '#.*$',\n      ''\n    ),\n    '/+$',\n    ''\n  )\n)",
             "isValid": true,
             "referencedFieldIds": [
               "fldpXituUydEJz09r"
@@ -10459,6 +10459,178 @@
         {
           "id": "viwUZBKw1qB6Vbm0K",
           "name": "Linked Tables View",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "fields": [
+        {
+          "id": "fldwZx49qeZbOHh2B",
+          "name": "Name",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldCxnooBGserPMGb",
+          "name": "Table",
+          "options": {
+            "choices": [
+              {
+                "color": "blueBright",
+                "id": "selDO7qToC4vw33uW",
+                "name": "Connections"
+              },
+              {
+                "color": "pinkBright",
+                "id": "seleoq3lL7CBQFSKP",
+                "name": "History"
+              },
+              {
+                "color": "greenBright",
+                "id": "selHd4IzfZYEJs5Zp",
+                "name": "Members"
+              },
+              {
+                "color": "grayBright",
+                "id": "selbHiFGtkb7wrgdX",
+                "name": "Content"
+              }
+            ]
+          },
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldogW4Q47v7HOEgx",
+          "name": "Import Batch ID",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldlWAzH5FEsbxclq",
+          "name": "Job Status",
+          "options": {
+            "choices": [
+              {
+                "color": "blueLight2",
+                "id": "sel9r1ezQmZg1sRb2",
+                "name": "Queued"
+              },
+              {
+                "color": "cyanLight2",
+                "id": "selcz2Cxs6fCerFXR",
+                "name": "Processing"
+              },
+              {
+                "color": "tealLight2",
+                "id": "sel09kDIYa0D6iqo5",
+                "name": "Done"
+              },
+              {
+                "color": "greenLight2",
+                "id": "selJKHnBU7D8tVC6r",
+                "name": "Error"
+              }
+            ]
+          },
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldjX2nYnahvwTIJF",
+          "name": "Processed Count",
+          "options": {
+            "precision": 0
+          },
+          "type": "number"
+        },
+        {
+          "id": "fldlraHAkvCMoe6pq",
+          "name": "Deleted Duplicates",
+          "options": {
+            "precision": 0
+          },
+          "type": "number"
+        },
+        {
+          "id": "flddey1IiQknjzmee",
+          "name": "Deleted Trash",
+          "options": {
+            "precision": 0
+          },
+          "type": "number"
+        },
+        {
+          "id": "fldRaRaAHOXXskk2n",
+          "name": "Notes",
+          "type": "multilineText"
+        },
+        {
+          "id": "fldGsRkxH15MvyA8s",
+          "name": "total_rows",
+          "options": {
+            "precision": 1
+          },
+          "type": "number"
+        },
+        {
+          "id": "fldOxpb6wleUILTFk",
+          "name": "original_filename",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldvdLwZ5kfjbdMrm",
+          "name": "sheet_name",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldorpZmed4h3aFL0",
+          "name": "received at",
+          "options": {
+            "dateFormat": {
+              "format": "l",
+              "name": "local"
+            }
+          },
+          "type": "date"
+        },
+        {
+          "id": "fldb5wFu7TRlTBwxG",
+          "name": "Assignee",
+          "type": "singleCollaborator"
+        },
+        {
+          "id": "fldkY2fPCJEfY7nFv",
+          "name": "Attachments",
+          "options": {
+            "isReversed": false
+          },
+          "type": "multipleAttachments"
+        },
+        {
+          "description": "An AI generated summary of the Attachments field. Upload files to Attachments to generate a summary.",
+          "id": "fldWGAuT07DibKtTQ",
+          "name": "Attachment Summary",
+          "options": {
+            "prompt": [
+              "You are a professional document analyst specializing in summarizing content from various file types. Your task is to extract key points and provide a concise summary of the content found in the attached files. Ensure that the summary captures the main ideas and any important details without including unnecessary information.\n\nAnalyze the content of the attached files to identify the main themes and significant details. Summarize these points clearly and concisely, ensuring that the summary is informative and relevant to the document's purpose.\n\nFormat your response as plain text, keeping it concise and to the point. If you cannot summarize the content, output \"Unable to summarize the content.\" Example: \"The document discusses the impact of climate change on polar bears, highlighting the loss of habitat and food sources.\" (Real examples should be longer and more detailed.)\n\nFiles:\n",
+              {
+                "field": {
+                  "fieldId": "fldkY2fPCJEfY7nFv"
+                }
+              }
+            ],
+            "referencedFieldIds": [
+              "fldkY2fPCJEfY7nFv"
+            ]
+          },
+          "type": "aiText"
+        }
+      ],
+      "id": "tblN6kyNw1QjHAncb",
+      "name": "Import Jobs",
+      "primaryFieldId": "fldwZx49qeZbOHh2B",
+      "views": [
+        {
+          "id": "viw4uPSZd8DT95WMd",
+          "name": "Grid view",
           "type": "grid"
         }
       ]

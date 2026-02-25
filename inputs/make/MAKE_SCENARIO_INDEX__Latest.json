@@ -1,7 +1,7 @@
 {
   "base_url": "https://us2.make.com/api/v2",
-  "count": 43,
-  "fetched_at": "2026-02-24T04:26:28Z",
+  "count": 45,
+  "fetched_at": "2026-02-25T04:28:00Z",
   "organization_id": null,
   "scenario_source": "api:scenario_listing",
   "scenarios": [
@@ -173,6 +173,16 @@
     {
       "name": "C12 Third Pass",
       "scenario_id": "3687011",
+      "status": 200
+    },
+    {
+      "name": "CSVBox Complete - Import Jobs",
+      "scenario_id": "4227392",
+      "status": 200
+    },
+    {
+      "name": "CSVBox Rows - Airtable",
+      "scenario_id": "4226576",
       "status": 200
     },
     {
