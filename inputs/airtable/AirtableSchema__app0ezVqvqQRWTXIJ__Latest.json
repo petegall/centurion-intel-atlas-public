@@ -1,6 +1,6 @@
 {
   "base_id": "app0ezVqvqQRWTXIJ",
-  "fetched_at": "2026-02-25T04:27:52Z",
+  "fetched_at": "2026-02-26T04:24:40Z",
   "ok": true,
   "tables": [
     {
@@ -8775,10 +8775,10 @@
           "id": "fldncSfj5x6pENz5k",
           "name": "Connection ID",
           "options": {
-            "formula": "{fldKPX26KrKQKPjQ0} & \"__\" & {fldUBUinnj0vWNv9X}\n",
+            "formula": "{fld7uvVSuBk6CkFYc} & \"__\" & {fldUBUinnj0vWNv9X}\n",
             "isValid": true,
             "referencedFieldIds": [
-              "fldKPX26KrKQKPjQ0",
+              "fld7uvVSuBk6CkFYc",
               "fldUBUinnj0vWNv9X"
             ],
             "result": {
@@ -8834,6 +8834,11 @@
           "type": "multipleLookupValues"
         },
         {
+          "id": "fldN8vLpj7TnrMjeQ",
+          "name": "Partner Code CSV",
+          "type": "singleLineText"
+        },
+        {
           "id": "fldKPX26KrKQKPjQ0",
           "name": "Partner ID",
           "options": {
@@ -8845,6 +8850,27 @@
             }
           },
           "type": "multipleLookupValues"
+        },
+        {
+          "id": "fld7h01jyNhkpJxfm",
+          "name": "Partner ID CSV",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld7uvVSuBk6CkFYc",
+          "name": "Partner ID Flat",
+          "options": {
+            "formula": "IF(\n  LEN(TRIM(ARRAYJOIN({fldKPX26KrKQKPjQ0}))) > 0,\n  ARRAYJOIN({fldKPX26KrKQKPjQ0}),\n  {fld7h01jyNhkpJxfm}\n)",
+            "isValid": true,
+            "referencedFieldIds": [
+              "fldKPX26KrKQKPjQ0",
+              "fld7h01jyNhkpJxfm"
+            ],
+            "result": {
+              "type": "singleLineText"
+            }
+          },
+          "type": "formula"
         },
         {
           "id": "fldKXh3w741iaLdyZ",
@@ -9605,10 +9631,20 @@
           "id": "fldxVWl6hhANXiq4w",
           "name": "Sent to Clay",
           "options": {
-            "color": "greenBright",
-            "icon": "check"
+            "choices": [
+              {
+                "color": "blueLight2",
+                "id": "selk635MOunnna4nu",
+                "name": "Not Yet"
+              },
+              {
+                "color": "cyanLight2",
+                "id": "selqMG5T6MIk6NzlD",
+                "name": "Complete"
+              }
+            ]
           },
-          "type": "checkbox"
+          "type": "singleSelect"
         },
         {
           "id": "fldaBOP9BV9wCdC4b",
@@ -9725,6 +9761,22 @@
             }
           },
           "type": "formula"
+        },
+        {
+          "id": "fldadMlJ9gGehxgTY",
+          "name": "Clay Ran",
+          "options": {
+            "dateFormat": {
+              "format": "l",
+              "name": "local"
+            },
+            "timeFormat": {
+              "format": "h:mma",
+              "name": "12hour"
+            },
+            "timeZone": "client"
+          },
+          "type": "dateTime"
         }
       ],
       "id": "tbl4u8SH3nL8OLA9e",
