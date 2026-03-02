@@ -1,13 +1,18 @@
 {
   "base_url": "https://us2.make.com/api/v2",
-  "count": 46,
-  "fetched_at": "2026-03-01T04:29:57Z",
+  "count": 48,
+  "fetched_at": "2026-03-02T04:22:51Z",
   "organization_id": null,
   "scenario_source": "api:scenario_listing",
   "scenarios": [
     {
       "name": "10. Engagements to GHL",
       "scenario_id": "3952284",
+      "status": 200
+    },
+    {
+      "name": "9. Val_C12 Send Report When Ready",
+      "scenario_id": "3824833",
       "status": 200
     },
     {
@@ -43,6 +48,21 @@
     {
       "name": "Snapshot \u2014 Make Blueprints (Core)",
       "scenario_id": "4124710",
+      "status": 200
+    },
+    {
+      "name": "Val - Email to C12 Intel Router",
+      "scenario_id": "4265554",
+      "status": 200
+    },
+    {
+      "name": "Val - Intel Conveyor",
+      "scenario_id": "4267051",
+      "status": 200
+    },
+    {
+      "name": "Val to Clay",
+      "scenario_id": "4267120",
       "status": 200
     },
     {
@@ -146,11 +166,6 @@
       "status": 200
     },
     {
-      "name": "9. Val_C12 Send Report When Ready",
-      "scenario_id": "3824833",
-      "status": 200
-    },
-    {
       "name": "add linkedin notes",
       "scenario_id": "4148204",
       "status": 200
@@ -223,11 +238,6 @@
     {
       "name": "Snapshot \u2014 Airtable Schema (Dancing King Client Vault)",
       "scenario_id": "4123962",
-      "status": 200
-    },
-    {
-      "name": "Val - Email to C12 Intel Router",
-      "scenario_id": "4265554",
       "status": 200
     },
     {

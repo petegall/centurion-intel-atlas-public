@@ -1,6 +1,6 @@
 {
   "base_id": "app0ezVqvqQRWTXIJ",
-  "fetched_at": "2026-03-01T04:29:49Z",
+  "fetched_at": "2026-03-02T04:22:40Z",
   "ok": true,
   "tables": [
     {
@@ -3746,7 +3746,7 @@
           "id": "fldYHNz0L4LkO1whL",
           "name": "Years of Experience",
           "options": {
-            "precision": 1
+            "precision": 3
           },
           "type": "number"
         },
@@ -3762,7 +3762,7 @@
           "id": "fldl7Pc52GgnNcUU1",
           "name": "Current Role Tenure (months)",
           "options": {
-            "precision": 1
+            "precision": 2
           },
           "type": "number"
         },
@@ -6173,6 +6173,40 @@
             "icon": "check"
           },
           "type": "checkbox"
+        },
+        {
+          "id": "fld1D0tERQbJ0FKCb",
+          "name": "AUTOSEND",
+          "options": {
+            "choices": [
+              {
+                "color": "blueLight2",
+                "id": "selmKfq7l7Q2TOQR3",
+                "name": "Yes"
+              },
+              {
+                "color": "cyanLight2",
+                "id": "selC1hCrcC1Nlhy7s",
+                "name": "No"
+              }
+            ]
+          },
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld2CapVa8nmhANMg",
+          "name": "LI Photo",
+          "type": "url"
+        },
+        {
+          "id": "fldo7d83f9XZFwtNy",
+          "name": "LI Pic Org",
+          "type": "url"
+        },
+        {
+          "id": "fldDnMcq7z66tVofn",
+          "name": "DOB",
+          "type": "singleLineText"
         }
       ],
       "id": "tbl9YyI5MWyMkbxrW",
