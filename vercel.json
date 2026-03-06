@@ -4,6 +4,18 @@
     {
       "source": "/",
       "destination": "/outputs/index.json"
+    },
+    {
+      "source": "/atlas",
+      "destination": "/outputs/index.json"
+    },
+    {
+      "source": "/system",
+      "destination": "/outputs/SYSTEM.md"
+    },
+    {
+      "source": "/graph",
+      "destination": "/outputs/SYSTEM.graph.json"
     }
   ]
 }
