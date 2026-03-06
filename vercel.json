@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/outputs/index.json"
+    }
+  ]
+}
