@@ -7,6 +7,12 @@ Purpose:
 - support tool access through stable public artifacts
 - provide a clean public atlas surface for documentation and automation
 
+Public endpoints:
+- `/` — landing page
+- `/atlas` — atlas index (JSON)
+- `/system` — system map (Markdown)
+- `/graph` — system graph (JSON)
+
 Canonical public artifacts:
 - `outputs/index.json`
 - `outputs/SYSTEM.md`
@@ -19,5 +25,7 @@ This repository should not contain:
 - Make blueprints
 - unpublished internal system details
 
-Source of truth for internal system inputs lives in the private repository:
-`centurion-intel-atlas`
+Architecture:
+private atlas repo → generated safe outputs → public mirror repo → Vercel-hosted public endpoints
+
+Source of truth for internal system inputs lives in the private repository: `centurion-intel-atlas`
