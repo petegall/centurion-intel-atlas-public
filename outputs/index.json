@@ -3,6 +3,14 @@
     "system_graph": "outputs/SYSTEM.graph.json",
     "system_markdown": "outputs/SYSTEM.md"
   },
+  "endpoints": {
+    "atlas": "/atlas",
+    "graph": "/graph",
+    "root": "/",
+    "system": "/system"
+  },
+  "generated_at": "2026-03-06T19:55:56Z",
   "generated_by": "generator/build_atlas.py",
-  "version": "v1"
+  "project": "Centurion Intel Atlas",
+  "schema_version": 1
 }
