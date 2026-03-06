@@ -1,8 +1,0 @@
-{
-  "version": "v1",
-  "generated_at": "2026-03-06T00:00:00Z",
-  "artifacts": {
-    "system_markdown": "outputs/SYSTEM.md",
-    "system_graph": "outputs/SYSTEM.graph.json"
-  }
-}
