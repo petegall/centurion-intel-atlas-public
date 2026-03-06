@@ -1,0 +1,8 @@
+{
+  "artifacts": {
+    "system_graph": "outputs/SYSTEM.graph.json",
+    "system_markdown": "outputs/SYSTEM.md"
+  },
+  "generated_by": "generator/build_atlas.py",
+  "version": "v1"
+}
