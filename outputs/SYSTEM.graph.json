@@ -118,6 +118,11 @@
     {
       "from": "source:ghl",
       "relation": "contains",
+      "to": "file:inputs/ghl/GHLConversations__JH4o9LqPhHyuvvyVFJVZ__Latest.json"
+    },
+    {
+      "from": "source:ghl",
+      "relation": "contains",
       "to": "file:inputs/ghl/GHLCustomFields__JH4o9LqPhHyuvvyVFJVZ__Latest.json"
     },
     {
@@ -560,7 +565,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/airtable/AirtableSchema__app0ezVqvqQRWTXIJ__Latest.json",
-      "sha256": "dcaa82c31c19b2f7419d3a573960f67a9dbac3c8bcf49ad4ec673623d1477e71",
+      "sha256": "29516b7effa1320300ede7285ebd0f53f9667dddb9ed8528c80442ff9e882721",
       "size_bytes": 339269,
       "source": "airtable"
     },
@@ -574,7 +579,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/airtable/AirtableSchema__appQFyu6Aejoq7yHP__Latest.json",
-      "sha256": "7630f91a9968f22d8c31af15040aa99e17f6547f650abbd3e2dfce2db4f97eaa",
+      "sha256": "e85f5aa8ac1c08c4fed4da8ba0cb824c703a62473ab07326e2b46bec3759dea8",
       "size_bytes": 7948,
       "source": "airtable"
     },
@@ -583,7 +588,7 @@
       "json_top_level_keys": "UNKNOWN",
       "markdown_heading": "Airtable inputs",
       "path": "inputs/airtable/README.md",
-      "sha256": "22fc66066cd9fd3cd0a256dd020f22ada5a6c6dd4d81bfbd2cec7f6999defa9a",
+      "sha256": "c2764f63fe89925b3cb75c58432e8c49c3fa7753468f9b1ee716b1aa0afec6ca",
       "size_bytes": 320,
       "source": "airtable"
     },
@@ -618,7 +623,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLCalendars__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "62fe3d405ce6655680e4f35e18a13c7b2b287d1c96bfbe96a1fca1031836a4b0",
+      "sha256": "1826e400d0a7566d860b397faac0b01122d01d9dedd8ece87b5688dbded5e660",
       "size_bytes": 77023,
       "source": "ghl"
     },
@@ -635,8 +640,25 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLContacts__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "4b9201b7bacbd27b7a71473db7fbcf4d7b6247b82c12f40f5d86ef050dc6b5d4",
+      "sha256": "157e97fbcb5545c8e2ad84fa701815c65b2722bb7d2323546d1e57e38443c49f",
       "size_bytes": 3547838,
+      "source": "ghl"
+    },
+    {
+      "extension": ".json",
+      "json_top_level_keys": [
+        "conversations",
+        "count",
+        "fetched_at",
+        "location_id",
+        "ok",
+        "source",
+        "status"
+      ],
+      "markdown_heading": "UNKNOWN",
+      "path": "inputs/ghl/GHLConversations__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
+      "sha256": "78d079897d013cc9ad56bf152c94d41345b9deb5bf8bdb5572177624974d6a32",
+      "size_bytes": 50460,
       "source": "ghl"
     },
     {
@@ -652,7 +674,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLCustomFields__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "23accfbb83e05a196ad337d853c47e9ec92ae199afaed6029e49892c8270ebe1",
+      "sha256": "c0748f5dda5efeebab6727645931fecde53e0d4ffc0750286bd0050bee26da94",
       "size_bytes": 48922,
       "source": "ghl"
     },
@@ -669,7 +691,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLCustomValues__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "5ad49849adb6216b6362386100e6b0dca9811412aaf620c7514243377fc3aec6",
+      "sha256": "57926574a15ae39137ea6c2af3486e2b6c2a9b6e1968acd494f81c574a7897b0",
       "size_bytes": 3911,
       "source": "ghl"
     },
@@ -686,7 +708,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLEmailTemplates__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "5cb6c94c5c552f0089077ea52f4b15c7089adc435df9ce5b3eeb12b391e29884",
+      "sha256": "c99cb73dc58b86fe79760c28d426830223ff4a1796eb152ddfb96e6e999668bd",
       "size_bytes": 172,
       "source": "ghl"
     },
@@ -703,7 +725,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLForms__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "696a225d0891189b5a3d38b8ac6a11a3960c2a733c8b8e226adcf2bc4ffcd7df",
+      "sha256": "4939395ffa7a424c82bc3fe72862798a639f9159ec03d8f19bdfbf8bba7d7225",
       "size_bytes": 1371,
       "source": "ghl"
     },
@@ -720,7 +742,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLFunnels__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "0deeca3adcb76b93a40ac0dc26f8eedb580482f4fb7df1b3d2aa816a2b868457",
+      "sha256": "a6925aee103d208c330dbc39b82f202dbfbfec8a8e43e8c19d0dc35511117909",
       "size_bytes": 37751,
       "source": "ghl"
     },
@@ -736,7 +758,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLLocation__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "5f06a19cd1c18bd4300231d10d689cdc0a0e9090b5198a28d5d43c6db88bd347",
+      "sha256": "27e8a199258ff1f542042398605cb0f9fb1cea6b8ee123204886ef97054b18f4",
       "size_bytes": 3626,
       "source": "ghl"
     },
@@ -753,7 +775,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLPipelines__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "18ffb810da3e05eb3ba04d8ee0ba831e787514255f7064994321aa5c804034a5",
+      "sha256": "952f4332252312be6e5f76c34ae176c6f83ce7765ac5e63a28a1957117b9ac88",
       "size_bytes": 9876,
       "source": "ghl"
     },
@@ -770,7 +792,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLTags__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "81a393aa3747d8c682f2b3cf7a344e7ef7ad0bd6ce6dfd634644e4a074a6e07c",
+      "sha256": "98891383030c722fc1e4cafaadb65571fb3fc438f81b5b387e27dbe67f07ba1e",
       "size_bytes": 6357,
       "source": "ghl"
     },
@@ -787,7 +809,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLTriggerLinks__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "725faeac99127895a63c4db80227298ede1de5c2ba1de3f80400e5f622435f62",
+      "sha256": "7b92a7b16250da7f94573cd625d9e049d45044bfb40c1af1535ecbe5bdc5cf04",
       "size_bytes": 411,
       "source": "ghl"
     },
@@ -804,7 +826,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLUsers__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "a76c25f8a8716f2664137d04b97eba11fcca0ff0d65e614d22b6ce1dcf0954f4",
+      "sha256": "609fd69f081f603b84a91975a41a6bf7013ac1b990cc9e886b3ac8569ca3fef4",
       "size_bytes": 11301,
       "source": "ghl"
     },
@@ -821,7 +843,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/ghl/GHLWorkflows__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
-      "sha256": "f3ad14f5bd5a715242a977d769e9e6071cf42ae9c47f1358ff59dbd1ab954bf8",
+      "sha256": "3be28df88b917fb0ab3cf4798bdc593cf5387ad3f1cf928cec9cb6a70e3d1e1f",
       "size_bytes": 11042,
       "source": "ghl"
     },
@@ -830,8 +852,8 @@
       "json_top_level_keys": "UNKNOWN",
       "markdown_heading": "GHL inputs",
       "path": "inputs/ghl/README.md",
-      "sha256": "56c1a1b2d9e6caa98910451424813f3573bf3d570070d2fda01ff11fd4044519",
-      "size_bytes": 2332,
+      "sha256": "632b8f898516cde32288543e255155800fe4076bc44d4ce5f8c1d31ed71db77d",
+      "size_bytes": 2524,
       "source": "ghl"
     },
     {
@@ -858,7 +880,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/MAKE_SCENARIO_INDEX__Latest.json",
-      "sha256": "e7e5a11e445404f4d554285f13c3dabe56cd94a4f8dcf66998b24d42c9d7da92",
+      "sha256": "ced257b9de52ad3a73e85727b1d9bf4d09cab74b1f7fc0cdc26a6428349c1173",
       "size_bytes": 5508,
       "source": "make"
     },
@@ -875,7 +897,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/MAKE_SCENARIO_LISTING__Latest.json",
-      "sha256": "57e6da8764b436091722aa738c43145bfc1ca773da367797ca3471f7f0a0ea05",
+      "sha256": "265617e5688c14e68c52f8a69719a447ca45de40588a5e31dfbe1739de110cab",
       "size_bytes": 74781,
       "source": "make"
     },
@@ -892,7 +914,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/MakeProbe__Latest.json",
-      "sha256": "f06157712fa64ec20166d68e24b5361f1e8a36bd3ab8242c4877364371bd681d",
+      "sha256": "9e4dee218d8670d1f3eaa3f4614fc3ac5a57317e63ea8ff79e2a3f4ca8219cbb",
       "size_bytes": 6831,
       "source": "make"
     },
@@ -915,7 +937,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__2348337__Latest.json",
-      "sha256": "52b4319dd9f9f168aa3b9ece1866529bb92f667e66b83a684da0b6d7bb482a79",
+      "sha256": "b25979b92884836f934fd63bb5d88c4ecd1fc494ca3326d9692306039a7d65b4",
       "size_bytes": 29039,
       "source": "make"
     },
@@ -929,7 +951,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3664392__Latest.json",
-      "sha256": "4f0bbc7caf368b0478936e15337cc7be4ef9719730965cac644a2dca3b97bfdf",
+      "sha256": "41a6e63b902923d3490c0027b4f73883b0906155fcad01d6187f0ebd89759679",
       "size_bytes": 133837,
       "source": "make"
     },
@@ -943,7 +965,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3673026__Latest.json",
-      "sha256": "18555d38be5c13dd74e1b2da9b2008331d6d89c2052a1e565b0c32de1794f991",
+      "sha256": "83e5f4201873267e88c0795cfefae2ec4da10e5241678d934fa3d24e92960fc2",
       "size_bytes": 193486,
       "source": "make"
     },
@@ -957,7 +979,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3686763__Latest.json",
-      "sha256": "8e5e478a8a85dd808d68c428b030377f3684717db6bc1e8a03e28eacbc43b1e7",
+      "sha256": "ad33f70c88a46ad305fd31d3d9223ff373b1440f908462fce2698ba2d7abf657",
       "size_bytes": 132491,
       "source": "make"
     },
@@ -971,7 +993,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3686991__Latest.json",
-      "sha256": "86d6857c3c927e8599a311e7100093b48f0da30d0c0da7b8b16618102e115a67",
+      "sha256": "a68913c566c3b5ea69728ff6dcd3ad11920f468c5f5641e6665de781ed16f0d2",
       "size_bytes": 138096,
       "source": "make"
     },
@@ -985,7 +1007,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3687011__Latest.json",
-      "sha256": "d9d6639ba4988cecf87f283b410da8cdba142a3c7f0b93cbc872ed51e3139c7c",
+      "sha256": "69809664d6d7697f204f4229f38a57f56e8ca21036427f8072950dd29ae739e0",
       "size_bytes": 87666,
       "source": "make"
     },
@@ -999,7 +1021,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3733465__Latest.json",
-      "sha256": "7e9df02f10cf12ade59f19698a61dfb147cfcacdda27273600bfc658090ff12b",
+      "sha256": "8aeaf51727401b7256da63254122393642d68efa37521405cf4961df12c911ce",
       "size_bytes": 571925,
       "source": "make"
     },
@@ -1013,7 +1035,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3738189__Latest.json",
-      "sha256": "c6e5c1c83fe0d05e694c95b7c703d2edd9d87b0765496d9f95c11f20b30ab322",
+      "sha256": "7a856cfc5096a6908dd964b68d4025b8d1cf4675a98c3d78347af36995a67e96",
       "size_bytes": 146399,
       "source": "make"
     },
@@ -1027,7 +1049,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3744510__Latest.json",
-      "sha256": "974f5f9b518fc8c859c498ad85bf2c6cd766bfb4bf81ceffcea92deb8c806cd8",
+      "sha256": "ea6abf31d545ba557924848c269ef978d0dbc099b000749bfaa326b1771146a7",
       "size_bytes": 338031,
       "source": "make"
     },
@@ -1041,7 +1063,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3745933__Latest.json",
-      "sha256": "06359e769b09f56d3de2cda7b60d6117f72792360b675edc1736843ab000a09c",
+      "sha256": "7eb3a12cf4baaca89137156b81256e2f28fdfc8d870c7f7e47f43fad1074e4eb",
       "size_bytes": 124315,
       "source": "make"
     },
@@ -1055,7 +1077,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3761572__Latest.json",
-      "sha256": "8f9a1e5c9d52630da9e39edf5906f0a121e48fbe4152361bd313ba3d63f6713f",
+      "sha256": "49996f6964e6f7eb2465c0a0c9d2ec74c081a0301144f815d0b995978d34f86f",
       "size_bytes": 230606,
       "source": "make"
     },
@@ -1069,7 +1091,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3795815__Latest.json",
-      "sha256": "e3b73390ccee8d78ad91d06498ee872e82ea256c6bb7722334be8905d906e637",
+      "sha256": "33490e1b292d960c47053c15a5eeaffe7e280786d67a61b287ce0901f052f997",
       "size_bytes": 211984,
       "source": "make"
     },
@@ -1083,7 +1105,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3798600__Latest.json",
-      "sha256": "2c20ce4e698b721124df0ca257d8b2efe6aa540d5d2d4908606b281024e64a1f",
+      "sha256": "926cda6259c598e4d09e52eb160170ce949946857298f4418d582c3b911382df",
       "size_bytes": 322695,
       "source": "make"
     },
@@ -1097,7 +1119,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3818644__Latest.json",
-      "sha256": "fe6dd1f17f7431b712f9827bcfdac0d8a3202321d193a0feb743b1ccfeb43878",
+      "sha256": "227f36cc82256bbc17435493e8137bed4ecd0ce6bc17ab9f4ea06df25f390872",
       "size_bytes": 195490,
       "source": "make"
     },
@@ -1111,7 +1133,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3818650__Latest.json",
-      "sha256": "321ed6a6b56c555c2203346ef1d96171dfa73f36969c1e569d6d6520f3c02bbd",
+      "sha256": "b5e3414e75b220a1420b3dafa9e5a12d3cf7f6f0d6389f5252e4f36d04b7347c",
       "size_bytes": 188936,
       "source": "make"
     },
@@ -1125,7 +1147,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3818652__Latest.json",
-      "sha256": "e1387b7508f0019e70aeaaffdcd75b326cb028b9fb5a10e38081da7c673a6d56",
+      "sha256": "64954eee8e64e93d7b5783744ee6a9b78477e6225e27a0009111ed3ff33875a7",
       "size_bytes": 214238,
       "source": "make"
     },
@@ -1139,7 +1161,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3818663__Latest.json",
-      "sha256": "85b95be738074b0ace7bca3e0d6795c27d3d2690003c7530cb99ecdf32f0a6cc",
+      "sha256": "a793599d7a719081fedf76f7a6dcf792ec0e7149806d15a50eb99215e0b65221",
       "size_bytes": 198409,
       "source": "make"
     },
@@ -1153,7 +1175,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3824254__Latest.json",
-      "sha256": "90d38e1f25f1a67988f21f293fc88a3cfd62ca431faa829f3a314fd193a6d73d",
+      "sha256": "db38570d55a938ee68c6bf513ceba5941684a06d260ab7acf3fdcaa19d981e97",
       "size_bytes": 498670,
       "source": "make"
     },
@@ -1167,7 +1189,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3824833__Latest.json",
-      "sha256": "a6a0dfbc432fe73aaea02300c261ee04d743632e969585900111b7247a8738ff",
+      "sha256": "3343b5ed47472c822d79ec088699abe687e7f1ce8eab598a758aba733de2d037",
       "size_bytes": 215159,
       "source": "make"
     },
@@ -1181,7 +1203,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3859876__Latest.json",
-      "sha256": "218825694b319a141ac29b78a8fcc9b3c613ab6a8ea27e47657e7d3cae3713e9",
+      "sha256": "617b82c7d8183bf9f8a2cd1429743788b4a72210ad49f1b1ca1d4027ae259f34",
       "size_bytes": 3320532,
       "source": "make"
     },
@@ -1195,7 +1217,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3920516__Latest.json",
-      "sha256": "52074874a7a82d4bb75ed9674756e793abb5062bf9f6fd92282f57a568695e8e",
+      "sha256": "6c6596f01aa5386e9fafd5feb31bf96a5da03186cce6d387b9a1b6c6906f9fd8",
       "size_bytes": 211170,
       "source": "make"
     },
@@ -1209,7 +1231,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3920818__Latest.json",
-      "sha256": "4a6d6e2b08811dd5264d6119e410374119a0badcc89d6b87775ea3019f0cab4f",
+      "sha256": "d464275523fae35b33963d2af472f985f2f8ba705a97cd18c76d36b70e561393",
       "size_bytes": 226847,
       "source": "make"
     },
@@ -1223,7 +1245,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3952284__Latest.json",
-      "sha256": "bc905e7b45f7ee2b19ff9c0c3a82d138457c692248bbdd9dfe71895605cfc5e1",
+      "sha256": "e1282ec94a37dfd6bb5b5b1788c2f2d3b7aef5cf659c5e190cd4da5d6d9cba07",
       "size_bytes": 298372,
       "source": "make"
     },
@@ -1237,7 +1259,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3961170__Latest.json",
-      "sha256": "5dbfc299f57e90aa92030b808602df9752d64471d0251a9f789ca9960b80a1e1",
+      "sha256": "6d294fcb4b10f8443866935ed9e676b4ccff6cd47e069e661e8f5c20e320537f",
       "size_bytes": 571916,
       "source": "make"
     },
@@ -1251,7 +1273,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__3996198__Latest.json",
-      "sha256": "420fd647213c359316ad978a1f4f629483c9c2969300b58ab713fad2dd764fd0",
+      "sha256": "54541697defba7cbe05dc12f8a34f4b4ba699f1c0d353efa2d0e9f98620b1d99",
       "size_bytes": 25316,
       "source": "make"
     },
@@ -1265,7 +1287,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4001823__Latest.json",
-      "sha256": "909d1a952d3afdfe5b8d4ed4e4e088f01e2ca32f70baa8950aab5ceb2afc2138",
+      "sha256": "a8e84e4601dcb8806b574baf87dd67ca3779f208a4e55132db34f9b05341f3ff",
       "size_bytes": 39815,
       "source": "make"
     },
@@ -1279,7 +1301,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4002164__Latest.json",
-      "sha256": "5987f1df846fb0d51754daa24c5041d477c4f6b0f200d5ebab1c3bf9fce03a9c",
+      "sha256": "a76733a91b23a73a52364f9ac5b91668bd6dde3debf953b653967e15df9063cd",
       "size_bytes": 32336,
       "source": "make"
     },
@@ -1293,7 +1315,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4002272__Latest.json",
-      "sha256": "5b51061ff6dd7e6645867299bc494dfdb8c52a963e1080029ce162fb6d0c0314",
+      "sha256": "c2884e17fda0021b58a333cca814daf4edf47d4644af15e9426ca068b616bf60",
       "size_bytes": 28557,
       "source": "make"
     },
@@ -1307,7 +1329,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4055279__Latest.json",
-      "sha256": "b530ed9559f033ea9223e3c1cb088dc304b40440a6cbe3e787a282382836cb53",
+      "sha256": "8bc317e4e7813b6d1aeec04ea1bf6f6382b52d0c69dc3744a647114c95f0f0fa",
       "size_bytes": 226864,
       "source": "make"
     },
@@ -1321,7 +1343,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4055283__Latest.json",
-      "sha256": "7c6a62bab6d5e8aeba42f36ec9e9138be2cb57739e9147fd55d3170934f93770",
+      "sha256": "8a5f7b1fdab0b58df964affae4a9043da2d8a6dc22b6f666869b3d4a7f5ce489",
       "size_bytes": 221165,
       "source": "make"
     },
@@ -1335,7 +1357,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4091455__Latest.json",
-      "sha256": "455dbc9b3dc93e1831752a4b793adae824ae403e2d591d32647ef20677d11af1",
+      "sha256": "fa5c3946e9fa936ba6e35581eb5abd25f6b87aa4d504f367646e5aa4fcffce7c",
       "size_bytes": 998939,
       "source": "make"
     },
@@ -1349,7 +1371,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4091456__Latest.json",
-      "sha256": "fc6df1d528fc7c3db39758c124c158f3c46da0a693f9642a29e8b36d89079b6f",
+      "sha256": "51554e9ec58df843f2d901eaf46a4e9edd97530fa0531c81c5895f00e40c3610",
       "size_bytes": 211991,
       "source": "make"
     },
@@ -1363,7 +1385,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4093385__Latest.json",
-      "sha256": "0fed7f90e1c31c084a6010bf585dbd04fb28af0a0694dd8f6d4cf3d3b48719a2",
+      "sha256": "4e5731f35b98fd37555fec8d5c4ccf50ab989355a030206c48363d50e425faaf",
       "size_bytes": 822256,
       "source": "make"
     },
@@ -1377,7 +1399,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4121916__Latest.json",
-      "sha256": "02a7260215a649dbb2516b418f6a060ee43a60a3ffd37c62c37f2b827976781e",
+      "sha256": "bae1bae62cd99c62ba252e37060ef05812de916e7c5a967750501b944aea4d89",
       "size_bytes": 25496,
       "source": "make"
     },
@@ -1391,7 +1413,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4123962__Latest.json",
-      "sha256": "6d0c92d2802aed95fad2d12d52e0a4cb00c0ac375d639f7b166aef36a93d8b8f",
+      "sha256": "cb682002fa7fa0328d42ca59a7577a2e866ce4c88b7797836b5c244d1fe1f9e0",
       "size_bytes": 20567,
       "source": "make"
     },
@@ -1405,7 +1427,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4124710__Latest.json",
-      "sha256": "0c8a5697b2dbbbdf117b6f24f69320c7bebcfe565d949758e002ed7bbacc6f0d",
+      "sha256": "69030b771726667aa72d2725a382c0fb49dade159aaef1080a86d14cd8bec1aa",
       "size_bytes": 23818,
       "source": "make"
     },
@@ -1419,7 +1441,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4127837__Latest.json",
-      "sha256": "b2109c5129b27fc23b60228e6a150336120fa63ec3e5166a7f1383c753f1d25f",
+      "sha256": "e899087142cd4b0bd2edbfabeca2cce625b341e8fee3fa3c83a3a6f11e2c54c1",
       "size_bytes": 17022,
       "source": "make"
     },
@@ -1433,7 +1455,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4128249__Latest.json",
-      "sha256": "6c6f497585577fe7098d136a8fa2c143c261cfaa44564add70cccb36cdf84715",
+      "sha256": "1538aa7b39b69650a0fc4d8d5d0278464327ad3d57e823f383c16000eb08e81b",
       "size_bytes": 16293,
       "source": "make"
     },
@@ -1447,7 +1469,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4128593__Latest.json",
-      "sha256": "e5952f694ac3fdbe743f378f89d3ae230d5c363e87279ef2a97309d261e5cdc0",
+      "sha256": "6a855a04ef690b13975c754cf7af46eb569ddc5468a065943745c6c8bcd7daac",
       "size_bytes": 12783,
       "source": "make"
     },
@@ -1461,7 +1483,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4148204__Latest.json",
-      "sha256": "0212bf4518a46534900d0f94d3a2355892aa72a9f16339bb6caa880ccb58ca8a",
+      "sha256": "473b1caa5a68708d68dd0b53ce8c46af0553ce9b33a147fc1cb8afcf952f188b",
       "size_bytes": 217379,
       "source": "make"
     },
@@ -1475,7 +1497,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4185478__Latest.json",
-      "sha256": "1706275d732aefd007626a9553d9b631fac193104d4c1a136a2a78134d47b7fe",
+      "sha256": "9fb0e306d7635c46f0b033a2370a23e3122fe5526642bf47d7b8ee1bafeaade0",
       "size_bytes": 1436544,
       "source": "make"
     },
@@ -1489,7 +1511,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4206316__Latest.json",
-      "sha256": "1286e463ebcf98ff9cce547bf97facafa56667fab4ce18836dd15b6782a96f56",
+      "sha256": "7c05f509bdefa887ce7f8bf26cbbb7a26a1ea05feff8a2bd3f0450f71f04402e",
       "size_bytes": 26384,
       "source": "make"
     },
@@ -1503,7 +1525,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4207345__Latest.json",
-      "sha256": "1daeef61e288f1be552cc0e6ef8ee3e4e6e4a02d8138f0b5456260ab52a1a934",
+      "sha256": "23a301f02ac800ae08c6a937602c6b33f2eacd514ad3386092bf381ff1cedd4e",
       "size_bytes": 12419,
       "source": "make"
     },
@@ -1517,7 +1539,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4226576__Latest.json",
-      "sha256": "37bbcc4ed71f5bd24845b44101e2ef12a2b93958df6e492d0b5b5c69d0af806f",
+      "sha256": "0fd560222119493fec96f811b6d72bc5d539b7e721e3c4faa65dc616326df321",
       "size_bytes": 164075,
       "source": "make"
     },
@@ -1531,7 +1553,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4227392__Latest.json",
-      "sha256": "d865a935c1d500f37711da823724b1a7a1f0f7215b0761ef24c3b870260233fe",
+      "sha256": "4cdd9c78276a1deffa51970f1c61ade8b6f75dbc58b9dd594b4bab86432b0841",
       "size_bytes": 97502,
       "source": "make"
     },
@@ -1545,7 +1567,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4265554__Latest.json",
-      "sha256": "765bae02d2e8edc9d643695da25fe470958754ab0cb953c33c5f5932c98d21a0",
+      "sha256": "cf739823beb1dee28beb1cf4f720cf9e8c611a8d63686ef986145439a894fba5",
       "size_bytes": 717233,
       "source": "make"
     },
@@ -1559,7 +1581,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4267051__Latest.json",
-      "sha256": "874bfffcb14d99145d09db3392423654447f407bd3d759559782f4533a41fd46",
+      "sha256": "b271a3d4ad0930c62ba2645de1cd7b3a03ee0f204ae1372a952ff1410bb08154",
       "size_bytes": 964274,
       "source": "make"
     },
@@ -1573,7 +1595,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4267120__Latest.json",
-      "sha256": "a2fec98d98e764c137df787b594f79b800ad46fab45141515538cd9a712652ad",
+      "sha256": "0a7e072df339efaae49bdceb81ca2569fa180a28b0fdedf891062c96465fb0e4",
       "size_bytes": 82247,
       "source": "make"
     },
@@ -1587,7 +1609,7 @@
       ],
       "markdown_heading": "UNKNOWN",
       "path": "inputs/make/blueprints/MakeBlueprint__4328562__Latest.json",
-      "sha256": "9e769e782f018892c529b59d81e4446acac0c2ef24797c43f46aaaf513582a36",
+      "sha256": "e74034b2cfc93f229a2b76d3d142d8b3580ab0af7dec8e87b877e41311497a0a",
       "size_bytes": 16101,
       "source": "make"
     },
@@ -1852,6 +1874,13 @@
       "id": "file:inputs/ghl/GHLContacts__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
       "kind": "file",
       "label": "inputs/ghl/GHLContacts__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
+      "source": "ghl"
+    },
+    {
+      "extension": ".json",
+      "id": "file:inputs/ghl/GHLConversations__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
+      "kind": "file",
+      "label": "inputs/ghl/GHLConversations__JH4o9LqPhHyuvvyVFJVZ__Latest.json",
       "source": "ghl"
     },
     {
