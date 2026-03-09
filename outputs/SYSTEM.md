@@ -5,6 +5,7 @@ This atlas is generated from `inputs/**` and avoids inventing missing system str
 ## Snapshot
 
 - Inputs scanned: `92`
+- Source groups: `13`
 - Source groups: `12`
 - Inferred system structure: `UNKNOWN`
 
@@ -142,6 +143,12 @@ This atlas is generated from `inputs/**` and avoids inventing missing system str
 | Path | Size (bytes) | SHA-256 | Markdown heading | JSON top-level keys |
 | --- | ---: | --- | --- | --- |
 | inputs/snapshots/index.md | 783 | `bcdc19bcd1f39d6fb372d519e0f8b31ae845dfa9ddee87aae7fa15862801b21c` | Snapshot Index | UNKNOWN |
+
+### softr
+
+| Path | Size (bytes) | SHA-256 | Markdown heading | JSON top-level keys |
+| --- | ---: | --- | --- | --- |
+| inputs/softr/README.md | 153 | `0b5c10a6e164c59554a5ac55496a038d419ceb7f15d0f0a7902a274f6f913938` | Softr inputs | UNKNOWN |
 
 ### videoask
 

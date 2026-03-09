@@ -48,6 +48,11 @@
     {
       "from": "atlas",
       "relation": "ingests",
+      "to": "source:softr"
+    },
+    {
+      "from": "atlas",
+      "relation": "ingests",
       "to": "source:videoask"
     },
     {
@@ -499,6 +504,11 @@
       "from": "source:snapshots",
       "relation": "contains",
       "to": "file:inputs/snapshots/index.md"
+    },
+    {
+      "from": "source:softr",
+      "relation": "contains",
+      "to": "file:inputs/softr/README.md"
     },
     {
       "from": "source:videoask",
@@ -1711,6 +1721,16 @@
     {
       "extension": ".md",
       "json_top_level_keys": "UNKNOWN",
+      "markdown_heading": "Softr inputs",
+      "path": "inputs/softr/README.md",
+      "sha256": "0b5c10a6e164c59554a5ac55496a038d419ceb7f15d0f0a7902a274f6f913938",
+      "size_bytes": 153,
+      "source": "softr"
+    },
+    {
+      "extension": ".md",
+      "json_top_level_keys": "UNKNOWN",
+      "markdown_heading": "UNKNOWN",
       "markdown_heading": "VideoAsk inputs",
       "path": "inputs/videoask/README.md",
       "sha256": "58ed9d7c5deb084021349511eed0b933614ad32a7767ae3a5883691354a49e11",
@@ -1804,6 +1824,11 @@
       "id": "source:snapshots",
       "kind": "source",
       "label": "snapshots"
+    },
+    {
+      "id": "source:softr",
+      "kind": "source",
+      "label": "softr"
     },
     {
       "id": "source:videoask",
@@ -2435,6 +2460,13 @@
       "kind": "file",
       "label": "inputs/snapshots/index.md",
       "source": "snapshots"
+    },
+    {
+      "extension": ".md",
+      "id": "file:inputs/softr/README.md",
+      "kind": "file",
+      "label": "inputs/softr/README.md",
+      "source": "softr"
     },
     {
       "extension": ".md",
